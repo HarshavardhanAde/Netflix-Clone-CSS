@@ -224,13 +224,14 @@ footer {
 
 @media screen and (max-width:1300px) {
     .footer {
-         
+
         grid-template-columns: 1fr 1fr;
-        
+
         max-width: 90vw;
-        
+
         gap: 18px;
     }
+
     footer {
         max-width: 90vw;
     }
@@ -257,30 +258,30 @@ footer {
     }
 
     .hero> :nth-child(2) {
-        
+
         font-size: 14px;
     }
-    
+
     .hero> :nth-child(3) {
         font-size: 12px;
-        
+
     }
 
-    nav{
+    nav {
         max-width: 90vw;
     }
 
-    .btn-red{
+    .btn-red {
         font-size: 12px;
         padding: 4px 4px;
     }
 
-    .hero input{
+    .hero input {
         font-size: 12px;
         padding: 4px 16px;
     }
 
-    .sp1{
+    .sp1 {
         font-size: 28px;
     }
 
@@ -289,13 +290,13 @@ footer {
     }
 
     .faq h2 {
-         font-size: 24px;
+        font-size: 24px;
     }
 
     .faqbox {
-         
+
         padding: 5px;
-        
+
         font-size: 18px;
     }
 }
@@ -314,4 +315,49 @@ footer {
 
 footer .questions {
     padding: 34px 0px;
+}
+
+@media screen and (max-width:400px) {
+    nav img {
+        width: 80px;
+
+    }
+
+    nav {
+        max-width: 80vw;
+        height: 60px;
+    }
+
+    .btn1 {
+        padding: 0px 4px;
+    }
+
+    .btn {
+        padding: 0px 4px;
+        font-size: 10px;
+    }
+
+    .hero {
+        height: calc(100% - 60px);
+
+    }
+
+    .hero div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .hero input {
+        font-size: 8px;
+        padding: 2px 16px;
+    }
+
+    .btn {
+        padding: 0px 4px;
+        font-size: 8px;
+    }
 }
